@@ -9,10 +9,12 @@ module.exports = function(router) {
     router.post('/theaters/:theaterId/sessions/new', function(req, res) {
         res.json({'stub': `[${req.originalUrl}] Endpoint works! Replace me in Step 2.`});
     });
-  
+
     // Edit the reservation of a session
     router.post('/theaters/:theaterId/sessions/:sessionId/edit', function(req, res) {
         res.json({'stub': `[${req.originalUrl}] Endpoint works! Replace me in Step 2.`});
     });
-  
+
+
+
 };
